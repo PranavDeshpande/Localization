@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E05D165FBFD840758FFC1E3C52C69E7 /* UIButton+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5FAE1F513632A04697963EB352D5C4 /* UIButton+Localization.m */; };
+		13FC1D19F6920C20D39B4A066F9E4844 /* UIButton+Localization.h in Headers */ = {isa = PBXBuildFile; fileRef = 4060EE5FDC01D27CA813A0A4F293734D /* UIButton+Localization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3357A615B7E5179D4496F8AC801F4611 /* Loki.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C426C7F99D09E95979FD95009753AE54 /* Loki.bundle */; };
+		349DFFBB2E7A5FC7903503C98DD7F796 /* UISegmentedControl+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = 751EAFDF4E7AE28FD331F06F07474DAD /* UISegmentedControl+Localization.m */; };
+		379B65341C6E630C6F21B61A569EFD83 /* UITextField+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C31954343668DBB4BE0718F1992F96 /* UITextField+Localization.m */; };
+		39958B359EA79881E6AD1820BEC72ED5 /* UITextView+Localization.h in Headers */ = {isa = PBXBuildFile; fileRef = 48EC686DAA0FB37FADC4FF1367639BEE /* UITextView+Localization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42525709FACC0F7F023F59AF4001D2E5 /* UIViewController+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AA82E756EF7CA644E66E2E51C28921 /* UIViewController+Localization.m */; };
+		47169EA52B2FEC5DA7A30015EA077C17 /* LKLanguage.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBFF4CF37F317B2A924F8BCCC2AD7D0 /* LKLanguage.m */; };
+		47903B68B3571C2C516277F680E0B9E1 /* UITextView+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = B76E726B8647B66A124EC298BEBA4474 /* UITextView+Localization.m */; };
+		4B87401410BAEF6C8CC4EE5EE717DC10 /* UIView+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD4CA0D4312AA2F2F5AEA93B241AE7 /* UIView+Localization.m */; };
+		4E1D95DE7E6D9ACF191EB57D1CB0E6F1 /* NSBundle+Language.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E37A3CF9D135102546D919D41D358C0 /* NSBundle+Language.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		647656AA62CEB372583E1BEE9D407DDC /* Loki.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF2D6E988D16F3256152C0307124EA9 /* Loki.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		697AD5E82D895FFBD543EB930F7BF62D /* UILabel+Localization.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE98148B7BC3871CB0978127D3B63DC /* UILabel+Localization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7899A033503846B0B731971EA7EE2AF9 /* UISegmentedControl+Localization.h in Headers */ = {isa = PBXBuildFile; fileRef = AA40AA3A0359A68C77B5569E29BC6B48 /* UISegmentedControl+Localization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80EF0FC55CB0FD927D503F034EFCCF8C /* Loki-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E3E263CE699A2FC27C9440275CD7A06 /* Loki-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FF9E5C398F8C089F1553F35A07E19F0 /* UIView+Localization.h in Headers */ = {isa = PBXBuildFile; fileRef = E40562D8D99220EEE59D6CE525E52435 /* UIView+Localization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		927FC6FCA19F73D9025F1D2786C4EBD1 /* LKManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 52AAC5397CE6366C942A1882E69881AE /* LKManager.m */; };
+		94FE89A1274B43E666B41C821ACCA0D0 /* LKLanguage.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E858869402166E21442DA03EC9A702E /* LKLanguage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98BD8D339C4B7C5BD31E26AC306291DB /* Loki-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 067FEB9B858D5CC98A420992867602B0 /* Loki-dummy.m */; };
+		9A0E9E51592AECD745C062181306624A /* UIViewController+Localization.h in Headers */ = {isa = PBXBuildFile; fileRef = 320CF0CE16FE97A38474F5D8DA9E8002 /* UIViewController+Localization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3F3ED63C6F55F6CA7DD27DC94587941 /* LKManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 76618C6283A6100C340C520867ED9EFA /* LKManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4637009524987B1753A9856A673C441 /* UIBarButtonItem+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA448B56C823CB8F6E699B096848E4D /* UIBarButtonItem+Localization.m */; };
+		C78D250EFFC58890A63D156CE0915DF7 /* Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A7538A2A47132810D795DE339D33D6 /* Swizzle.m */; };
+		CA5C18BAEC33FDDA08896620C3D51762 /* UIBarButtonItem+Localization.h in Headers */ = {isa = PBXBuildFile; fileRef = CB3B5538618EC7FC7873712AF47A6295 /* UIBarButtonItem+Localization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAFB6EFD6008DD92E54BEB971E028129 /* Pods-Lang-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B57566504462534C614D59697E5EC109 /* Pods-Lang-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D388B8C6CD9D7F5FF3E14B2AEB754093 /* Pods-Lang-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B62FD9F799A77A4997F973E473EE79A /* Pods-Lang-dummy.m */; };
+		D5B544A71E337C6C17186E761F04D3C7 /* NSBundle+Language.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CCB047002FF7EB335FCEB322B5970 /* NSBundle+Language.m */; };
+		D93C7CCFCE9726FAC394F0E4677C040A /* UITextField+Localization.h in Headers */ = {isa = PBXBuildFile; fileRef = 10D8F4F3BD0668D83ABA7563E0F6C5BF /* UITextField+Localization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F19677F31751BDC7FB7E187BF7A72F68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FA69FEDFA55746098E31D9CAE81751AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FAF09D4A650A3F610E373D43DF741C82 /* Swizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 802CE981BFE125FE854C8AB5F74DE05B /* Swizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFE23EB57C37080FB93F2ADA40A12BC9 /* UILabel+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B613BA1F38CAE804589B27562A4CE68 /* UILabel+Localization.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58E363BF88708AC899F937956FD1F81C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA4DB19EAA2A6DDE584A41C51CEB67B4;
+			remoteInfo = "Loki-Loki";
+		};
+		BC98727F2BD06910EF2A976A65980B55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF9D274969FB54C69018D1B4C1B761D5;
+			remoteInfo = Loki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0184348E560FB43E5113EB98853AEA32 /* Pods_Lang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Lang.framework; path = "Pods-Lang.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		067FEB9B858D5CC98A420992867602B0 /* Loki-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Loki-dummy.m"; sourceTree = "<group>"; };
+		0828467A8985D97337B73CA8803FFB63 /* Pods-Lang-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lang-resources.sh"; sourceTree = "<group>"; };
+		10D8F4F3BD0668D83ABA7563E0F6C5BF /* UITextField+Localization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+Localization.h"; path = "Pod/Classes/Views/Text/UITextField+Localization.h"; sourceTree = "<group>"; };
+		2E3E263CE699A2FC27C9440275CD7A06 /* Loki-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Loki-umbrella.h"; sourceTree = "<group>"; };
+		320CF0CE16FE97A38474F5D8DA9E8002 /* UIViewController+Localization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Localization.h"; path = "Pod/Classes/Controllers/UIViewController+Localization.h"; sourceTree = "<group>"; };
+		338CCB047002FF7EB335FCEB322B5970 /* NSBundle+Language.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+Language.m"; path = "Pod/Classes/Utils/NSBundle+Language.m"; sourceTree = "<group>"; };
+		3E858869402166E21442DA03EC9A702E /* LKLanguage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKLanguage.h; path = Pod/Classes/Models/LKLanguage.h; sourceTree = "<group>"; };
+		3ECAF3A27B4FADB51B74DB04C4965447 /* ResourceBundle-Loki-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Loki-Info.plist"; sourceTree = "<group>"; };
+		4060EE5FDC01D27CA813A0A4F293734D /* UIButton+Localization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Localization.h"; path = "Pod/Classes/Views/Controls/UIButton+Localization.h"; sourceTree = "<group>"; };
+		48EC686DAA0FB37FADC4FF1367639BEE /* UITextView+Localization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+Localization.h"; path = "Pod/Classes/Views/Text/UITextView+Localization.h"; sourceTree = "<group>"; };
+		4E5FAE1F513632A04697963EB352D5C4 /* UIButton+Localization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Localization.m"; path = "Pod/Classes/Views/Controls/UIButton+Localization.m"; sourceTree = "<group>"; };
+		52AAC5397CE6366C942A1882E69881AE /* LKManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKManager.m; path = Pod/Classes/Models/LKManager.m; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A3FD116B218C94DC10339BED09835D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B62FD9F799A77A4997F973E473EE79A /* Pods-Lang-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Lang-dummy.m"; sourceTree = "<group>"; };
+		6E37A3CF9D135102546D919D41D358C0 /* NSBundle+Language.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+Language.h"; path = "Pod/Classes/Utils/NSBundle+Language.h"; sourceTree = "<group>"; };
+		6FBDC453F2B209D232F11FD7AB2DF561 /* Loki-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Loki-prefix.pch"; sourceTree = "<group>"; };
+		751EAFDF4E7AE28FD331F06F07474DAD /* UISegmentedControl+Localization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISegmentedControl+Localization.m"; path = "Pod/Classes/Views/Controls/UISegmentedControl+Localization.m"; sourceTree = "<group>"; };
+		76618C6283A6100C340C520867ED9EFA /* LKManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKManager.h; path = Pod/Classes/Models/LKManager.h; sourceTree = "<group>"; };
+		76754BFDDF01C95C49B4148EE3505EE5 /* Pods-Lang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lang.release.xcconfig"; sourceTree = "<group>"; };
+		77CA19A50D177B3BA6B8546F7AE01979 /* Pods-Lang.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Lang.modulemap"; sourceTree = "<group>"; };
+		78A2AECEBC9A05DF124BFA837FD7A626 /* Pods-Lang-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lang-acknowledgements.plist"; sourceTree = "<group>"; };
+		78FD4CA0D4312AA2F2F5AEA93B241AE7 /* UIView+Localization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Localization.m"; path = "Pod/Classes/Views/UIView+Localization.m"; sourceTree = "<group>"; };
+		7D72C97E1CBC55719F0343401646D1F9 /* Pods-Lang-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Lang-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7F961E72ECE1266164C1E4B942F15D55 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		802CE981BFE125FE854C8AB5F74DE05B /* Swizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Swizzle.h; path = Pod/Classes/Utils/Swizzle.h; sourceTree = "<group>"; };
+		87A7538A2A47132810D795DE339D33D6 /* Swizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Swizzle.m; path = Pod/Classes/Utils/Swizzle.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9483ABF4C2A0B385D9AA54F02BA191BB /* Pods-Lang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lang.debug.xcconfig"; sourceTree = "<group>"; };
+		9AF2D6E988D16F3256152C0307124EA9 /* Loki.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Loki.h; path = Pod/Classes/Loki.h; sourceTree = "<group>"; };
+		9B613BA1F38CAE804589B27562A4CE68 /* UILabel+Localization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Localization.m"; path = "Pod/Classes/Views/Text/UILabel+Localization.m"; sourceTree = "<group>"; };
+		A89E25A123D9D5C8E9E0F72EBF1F308B /* Pods-Lang-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lang-frameworks.sh"; sourceTree = "<group>"; };
+		AA40AA3A0359A68C77B5569E29BC6B48 /* UISegmentedControl+Localization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISegmentedControl+Localization.h"; path = "Pod/Classes/Views/Controls/UISegmentedControl+Localization.h"; sourceTree = "<group>"; };
+		AE36248C027C13CAAD96CB4BB09BEFAA /* Loki.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Loki.xcconfig; sourceTree = "<group>"; };
+		B57566504462534C614D59697E5EC109 /* Pods-Lang-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Lang-umbrella.h"; sourceTree = "<group>"; };
+		B76E726B8647B66A124EC298BEBA4474 /* UITextView+Localization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+Localization.m"; path = "Pod/Classes/Views/Text/UITextView+Localization.m"; sourceTree = "<group>"; };
+		B8AA82E756EF7CA644E66E2E51C28921 /* UIViewController+Localization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Localization.m"; path = "Pod/Classes/Controllers/UIViewController+Localization.m"; sourceTree = "<group>"; };
+		BDE130C089FD449EB45C7EFA920077D7 /* Loki.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Loki.framework; path = Loki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C426C7F99D09E95979FD95009753AE54 /* Loki.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Loki.bundle; path = Loki.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3B5538618EC7FC7873712AF47A6295 /* UIBarButtonItem+Localization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+Localization.h"; path = "Pod/Classes/Views/Controls/UIBarButtonItem+Localization.h"; sourceTree = "<group>"; };
+		DBA448B56C823CB8F6E699B096848E4D /* UIBarButtonItem+Localization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+Localization.m"; path = "Pod/Classes/Views/Controls/UIBarButtonItem+Localization.m"; sourceTree = "<group>"; };
+		E40562D8D99220EEE59D6CE525E52435 /* UIView+Localization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Localization.h"; path = "Pod/Classes/Views/UIView+Localization.h"; sourceTree = "<group>"; };
+		E8C31954343668DBB4BE0718F1992F96 /* UITextField+Localization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+Localization.m"; path = "Pod/Classes/Views/Text/UITextField+Localization.m"; sourceTree = "<group>"; };
+		EEE98148B7BC3871CB0978127D3B63DC /* UILabel+Localization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Localization.h"; path = "Pod/Classes/Views/Text/UILabel+Localization.h"; sourceTree = "<group>"; };
+		EFBFF4CF37F317B2A924F8BCCC2AD7D0 /* LKLanguage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKLanguage.m; path = Pod/Classes/Models/LKLanguage.m; sourceTree = "<group>"; };
+		F17247907445A714E651021DAD727037 /* Loki.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Loki.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA679C8B08F73FE424C2C1C40E4B5136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19677F31751BDC7FB7E187BF7A72F68 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB8CE729F3AC8920CED61E7D78C65A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEC5B2DB448110AE4DE1E7FDF173558 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA69FEDFA55746098E31D9CAE81751AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0456CF6C93068D5913A0326FED7B0E8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C426C7F99D09E95979FD95009753AE54 /* Loki.bundle */,
+				BDE130C089FD449EB45C7EFA920077D7 /* Loki.framework */,
+				0184348E560FB43E5113EB98853AEA32 /* Pods_Lang.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		395EE3E4BBB725349B3B7A93D3B47AE3 /* Loki */ = {
+			isa = PBXGroup;
+			children = (
+				3E858869402166E21442DA03EC9A702E /* LKLanguage.h */,
+				EFBFF4CF37F317B2A924F8BCCC2AD7D0 /* LKLanguage.m */,
+				76618C6283A6100C340C520867ED9EFA /* LKManager.h */,
+				52AAC5397CE6366C942A1882E69881AE /* LKManager.m */,
+				9AF2D6E988D16F3256152C0307124EA9 /* Loki.h */,
+				6E37A3CF9D135102546D919D41D358C0 /* NSBundle+Language.h */,
+				338CCB047002FF7EB335FCEB322B5970 /* NSBundle+Language.m */,
+				802CE981BFE125FE854C8AB5F74DE05B /* Swizzle.h */,
+				87A7538A2A47132810D795DE339D33D6 /* Swizzle.m */,
+				CB3B5538618EC7FC7873712AF47A6295 /* UIBarButtonItem+Localization.h */,
+				DBA448B56C823CB8F6E699B096848E4D /* UIBarButtonItem+Localization.m */,
+				4060EE5FDC01D27CA813A0A4F293734D /* UIButton+Localization.h */,
+				4E5FAE1F513632A04697963EB352D5C4 /* UIButton+Localization.m */,
+				EEE98148B7BC3871CB0978127D3B63DC /* UILabel+Localization.h */,
+				9B613BA1F38CAE804589B27562A4CE68 /* UILabel+Localization.m */,
+				AA40AA3A0359A68C77B5569E29BC6B48 /* UISegmentedControl+Localization.h */,
+				751EAFDF4E7AE28FD331F06F07474DAD /* UISegmentedControl+Localization.m */,
+				10D8F4F3BD0668D83ABA7563E0F6C5BF /* UITextField+Localization.h */,
+				E8C31954343668DBB4BE0718F1992F96 /* UITextField+Localization.m */,
+				48EC686DAA0FB37FADC4FF1367639BEE /* UITextView+Localization.h */,
+				B76E726B8647B66A124EC298BEBA4474 /* UITextView+Localization.m */,
+				E40562D8D99220EEE59D6CE525E52435 /* UIView+Localization.h */,
+				78FD4CA0D4312AA2F2F5AEA93B241AE7 /* UIView+Localization.m */,
+				320CF0CE16FE97A38474F5D8DA9E8002 /* UIViewController+Localization.h */,
+				B8AA82E756EF7CA644E66E2E51C28921 /* UIViewController+Localization.m */,
+				74810D2F8009DD61875863AACEB74DE1 /* Support Files */,
+			);
+			name = Loki;
+			path = Loki;
+			sourceTree = "<group>";
+		};
+		6C826E785B1D7182E2EABDCBC74C1D48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				395EE3E4BBB725349B3B7A93D3B47AE3 /* Loki */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		74810D2F8009DD61875863AACEB74DE1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F961E72ECE1266164C1E4B942F15D55 /* Info.plist */,
+				F17247907445A714E651021DAD727037 /* Loki.modulemap */,
+				AE36248C027C13CAAD96CB4BB09BEFAA /* Loki.xcconfig */,
+				067FEB9B858D5CC98A420992867602B0 /* Loki-dummy.m */,
+				6FBDC453F2B209D232F11FD7AB2DF561 /* Loki-prefix.pch */,
+				2E3E263CE699A2FC27C9440275CD7A06 /* Loki-umbrella.h */,
+				3ECAF3A27B4FADB51B74DB04C4965447 /* ResourceBundle-Loki-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Loki";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6C826E785B1D7182E2EABDCBC74C1D48 /* Pods */,
+				0456CF6C93068D5913A0326FED7B0E8C /* Products */,
+				D28EDE6D1DD2F7A3CE0A8C137CC06C84 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9D79A7CFB0B528E23A7BBEE99E1228F6 /* Pods-Lang */ = {
+			isa = PBXGroup;
+			children = (
+				6A3FD116B218C94DC10339BED09835D0 /* Info.plist */,
+				77CA19A50D177B3BA6B8546F7AE01979 /* Pods-Lang.modulemap */,
+				7D72C97E1CBC55719F0343401646D1F9 /* Pods-Lang-acknowledgements.markdown */,
+				78A2AECEBC9A05DF124BFA837FD7A626 /* Pods-Lang-acknowledgements.plist */,
+				6B62FD9F799A77A4997F973E473EE79A /* Pods-Lang-dummy.m */,
+				A89E25A123D9D5C8E9E0F72EBF1F308B /* Pods-Lang-frameworks.sh */,
+				0828467A8985D97337B73CA8803FFB63 /* Pods-Lang-resources.sh */,
+				B57566504462534C614D59697E5EC109 /* Pods-Lang-umbrella.h */,
+				9483ABF4C2A0B385D9AA54F02BA191BB /* Pods-Lang.debug.xcconfig */,
+				76754BFDDF01C95C49B4148EE3505EE5 /* Pods-Lang.release.xcconfig */,
+			);
+			name = "Pods-Lang";
+			path = "Target Support Files/Pods-Lang";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D28EDE6D1DD2F7A3CE0A8C137CC06C84 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D79A7CFB0B528E23A7BBEE99E1228F6 /* Pods-Lang */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D446F4C37A95BC7B3EB141A38BB79F28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94FE89A1274B43E666B41C821ACCA0D0 /* LKLanguage.h in Headers */,
+				C3F3ED63C6F55F6CA7DD27DC94587941 /* LKManager.h in Headers */,
+				80EF0FC55CB0FD927D503F034EFCCF8C /* Loki-umbrella.h in Headers */,
+				647656AA62CEB372583E1BEE9D407DDC /* Loki.h in Headers */,
+				4E1D95DE7E6D9ACF191EB57D1CB0E6F1 /* NSBundle+Language.h in Headers */,
+				FAF09D4A650A3F610E373D43DF741C82 /* Swizzle.h in Headers */,
+				CA5C18BAEC33FDDA08896620C3D51762 /* UIBarButtonItem+Localization.h in Headers */,
+				13FC1D19F6920C20D39B4A066F9E4844 /* UIButton+Localization.h in Headers */,
+				697AD5E82D895FFBD543EB930F7BF62D /* UILabel+Localization.h in Headers */,
+				7899A033503846B0B731971EA7EE2AF9 /* UISegmentedControl+Localization.h in Headers */,
+				D93C7CCFCE9726FAC394F0E4677C040A /* UITextField+Localization.h in Headers */,
+				39958B359EA79881E6AD1820BEC72ED5 /* UITextView+Localization.h in Headers */,
+				8FF9E5C398F8C089F1553F35A07E19F0 /* UIView+Localization.h in Headers */,
+				9A0E9E51592AECD745C062181306624A /* UIViewController+Localization.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECFEF483FC1EFBE1EA9A2097B5BF0D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAFB6EFD6008DD92E54BEB971E028129 /* Pods-Lang-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3DD710D5E5E13096184E6720E596CD2D /* Pods-Lang */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A7BB0A8F74D4853E960DE37398AB3D /* Build configuration list for PBXNativeTarget "Pods-Lang" */;
+			buildPhases = (
+				8F01159416A742D9CD9673277DCD59DF /* Sources */,
+				BA679C8B08F73FE424C2C1C40E4B5136 /* Frameworks */,
+				EECFEF483FC1EFBE1EA9A2097B5BF0D8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0D89B0B516DD0041E129513ADF2AD90 /* PBXTargetDependency */,
+			);
+			name = "Pods-Lang";
+			productName = "Pods-Lang";
+			productReference = 0184348E560FB43E5113EB98853AEA32 /* Pods_Lang.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF9D274969FB54C69018D1B4C1B761D5 /* Loki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F9B11BAA46FC9E96BE0DFE5F74B4E0 /* Build configuration list for PBXNativeTarget "Loki" */;
+			buildPhases = (
+				0544CA940D146F53802D13699AC74176 /* Sources */,
+				DDEC5B2DB448110AE4DE1E7FDF173558 /* Frameworks */,
+				B1EC7334965E23167D3EC57B0A82A7CD /* Resources */,
+				D446F4C37A95BC7B3EB141A38BB79F28 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CDABE6E1A269E711C0A70C4087620FC /* PBXTargetDependency */,
+			);
+			name = Loki;
+			productName = Loki;
+			productReference = BDE130C089FD449EB45C7EFA920077D7 /* Loki.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA4DB19EAA2A6DDE584A41C51CEB67B4 /* Loki-Loki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5CA7ECBC9AB84ECB449D854D55902B5 /* Build configuration list for PBXNativeTarget "Loki-Loki" */;
+			buildPhases = (
+				6B39BEE0C5210FA0E8D5A3CEE1B48E7F /* Sources */,
+				DB8CE729F3AC8920CED61E7D78C65A63 /* Frameworks */,
+				A3A7CD6590E1C0FA0FF4098DF14B49C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Loki-Loki";
+			productName = "Loki-Loki";
+			productReference = C426C7F99D09E95979FD95009753AE54 /* Loki.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0456CF6C93068D5913A0326FED7B0E8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF9D274969FB54C69018D1B4C1B761D5 /* Loki */,
+				EA4DB19EAA2A6DDE584A41C51CEB67B4 /* Loki-Loki */,
+				3DD710D5E5E13096184E6720E596CD2D /* Pods-Lang */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3A7CD6590E1C0FA0FF4098DF14B49C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1EC7334965E23167D3EC57B0A82A7CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3357A615B7E5179D4496F8AC801F4611 /* Loki.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0544CA940D146F53802D13699AC74176 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47169EA52B2FEC5DA7A30015EA077C17 /* LKLanguage.m in Sources */,
+				927FC6FCA19F73D9025F1D2786C4EBD1 /* LKManager.m in Sources */,
+				98BD8D339C4B7C5BD31E26AC306291DB /* Loki-dummy.m in Sources */,
+				D5B544A71E337C6C17186E761F04D3C7 /* NSBundle+Language.m in Sources */,
+				C78D250EFFC58890A63D156CE0915DF7 /* Swizzle.m in Sources */,
+				C4637009524987B1753A9856A673C441 /* UIBarButtonItem+Localization.m in Sources */,
+				0E05D165FBFD840758FFC1E3C52C69E7 /* UIButton+Localization.m in Sources */,
+				FFE23EB57C37080FB93F2ADA40A12BC9 /* UILabel+Localization.m in Sources */,
+				349DFFBB2E7A5FC7903503C98DD7F796 /* UISegmentedControl+Localization.m in Sources */,
+				379B65341C6E630C6F21B61A569EFD83 /* UITextField+Localization.m in Sources */,
+				47903B68B3571C2C516277F680E0B9E1 /* UITextView+Localization.m in Sources */,
+				4B87401410BAEF6C8CC4EE5EE717DC10 /* UIView+Localization.m in Sources */,
+				42525709FACC0F7F023F59AF4001D2E5 /* UIViewController+Localization.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B39BEE0C5210FA0E8D5A3CEE1B48E7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F01159416A742D9CD9673277DCD59DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D388B8C6CD9D7F5FF3E14B2AEB754093 /* Pods-Lang-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CDABE6E1A269E711C0A70C4087620FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Loki-Loki";
+			target = EA4DB19EAA2A6DDE584A41C51CEB67B4 /* Loki-Loki */;
+			targetProxy = 58E363BF88708AC899F937956FD1F81C /* PBXContainerItemProxy */;
+		};
+		D0D89B0B516DD0041E129513ADF2AD90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Loki;
+			target = DF9D274969FB54C69018D1B4C1B761D5 /* Loki */;
+			targetProxy = BC98727F2BD06910EF2A976A65980B55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2F4EAABD25593017E9F3CACC68E2F478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE36248C027C13CAAD96CB4BB09BEFAA /* Loki.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Loki";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Loki/ResourceBundle-Loki-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Loki;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		38368A259B29B83117B6212C986F39BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE36248C027C13CAAD96CB4BB09BEFAA /* Loki.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Loki";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Loki/ResourceBundle-Loki-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Loki;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		647230A76E16B4FC53939B372F3D4248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE36248C027C13CAAD96CB4BB09BEFAA /* Loki.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Loki/Loki-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Loki/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Loki/Loki.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Loki;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF7995F6A0CF8798E6699392B1A72FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE36248C027C13CAAD96CB4BB09BEFAA /* Loki.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Loki/Loki-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Loki/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Loki/Loki.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Loki;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C329F60A0603D593F0A8E7D323C42579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9483ABF4C2A0B385D9AA54F02BA191BB /* Pods-Lang.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Lang/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lang/Pods-Lang.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Lang;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DAC6BF8AA9272252C677153A415E3509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76754BFDDF01C95C49B4148EE3505EE5 /* Pods-Lang.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Lang/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lang/Pods-Lang.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Lang;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53F9B11BAA46FC9E96BE0DFE5F74B4E0 /* Build configuration list for PBXNativeTarget "Loki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				647230A76E16B4FC53939B372F3D4248 /* Debug */,
+				AF7995F6A0CF8798E6699392B1A72FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A7BB0A8F74D4853E960DE37398AB3D /* Build configuration list for PBXNativeTarget "Pods-Lang" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C329F60A0603D593F0A8E7D323C42579 /* Debug */,
+				DAC6BF8AA9272252C677153A415E3509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5CA7ECBC9AB84ECB449D854D55902B5 /* Build configuration list for PBXNativeTarget "Loki-Loki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F4EAABD25593017E9F3CACC68E2F478 /* Debug */,
+				38368A259B29B83117B6212C986F39BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

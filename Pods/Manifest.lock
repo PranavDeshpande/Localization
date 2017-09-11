@@ -1,0 +1,21 @@
+PODS:
+  - Loki (0.1.0)
+
+DEPENDENCIES:
+  - Loki (from `https://github.com/mojidabckuu/Loki.git`)
+
+EXTERNAL SOURCES:
+  Loki:
+    :git: https://github.com/mojidabckuu/Loki.git
+
+CHECKOUT OPTIONS:
+  Loki:
+    :commit: 2d64a0c7d53b68d5170f74cc14a60b1303178854
+    :git: https://github.com/mojidabckuu/Loki.git
+
+SPEC CHECKSUMS:
+  Loki: f2d862e02c932101b9d13df12b76944860cda1c3
+
+PODFILE CHECKSUM: 12dbc62aeee629e6f1cc94f00f8bc6f22046e8bf
+
+COCOAPODS: 1.2.1
